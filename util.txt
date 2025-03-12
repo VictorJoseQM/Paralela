@@ -14,10 +14,10 @@ gcc -fopenmp knapsack_firefly_openmp.c -o knapsack_firefly_openmp -lm
 
  - EXECUÇÃO COM MPI -
 
-mpiexec -np 2 ./firefly_mpi
+mpiexec -np 2 ./knapsack_firefly_mpi
 
-mpiexec -np 4 ./firefly_mpi
+mpiexec -np 4 ./knapsack_firefly_mpi
 
-mpiexec -np 8 ./firefly_mpi
+mpiexec -np 8 ./knapsack_firefly_mpi
 
 ------------------------------------------------------
