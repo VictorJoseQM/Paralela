@@ -1,0 +1,23 @@
+------------------------------------------------------
+ - EXECUÇÃO SEQUENCIAL -
+
+gcc firefly_sequencial.c -o firefly_sequencial -lm
+./firefly_sequencial
+
+------------------------------------------------------
+ - EXECUÇÃO COM OPENMP -
+
+gcc -fopenmp firefly_openmp.c -o firefly_openmp -lm
+./firefly_openmp
+
+------------------------------------------------------
+
+ - EXECUÇÃO COM MPI -
+
+mpiexec -np 2 ./firefly_mpi
+
+mpiexec -np 4 ./firefly_mpi
+
+mpiexec -np 8 ./firefly_mpi
+
+------------------------------------------------------
