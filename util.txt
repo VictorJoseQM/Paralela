@@ -1,14 +1,14 @@
 ------------------------------------------------------
  - EXECUÇÃO SEQUENCIAL -
 
-gcc firefly_sequencial.c -o firefly_sequencial -lm
-./firefly_sequencial
+gcc -o knapsack_firefly_sequencial knapsack_firefly_sequencial.c -lm
+./knapsack_firefly_sequencial
 
 ------------------------------------------------------
  - EXECUÇÃO COM OPENMP -
 
-gcc -fopenmp firefly_openmp.c -o firefly_openmp -lm
-./firefly_openmp
+gcc -fopenmp knapsack_firefly_openmp.c -o knapsack_firefly_openmp -lm
+./knapsack_firefly_openmp
 
 ------------------------------------------------------
 
